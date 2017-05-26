@@ -15,6 +15,7 @@
 		A09B04B01ED8060E008CA08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09B04AE1ED8060E008CA08B /* LaunchScreen.storyboard */; };
 		A09B04BB1ED8060F008CA08B /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09B04BA1ED8060F008CA08B /* WeChatTests.m */; };
 		A09B04C61ED8060F008CA08B /* WeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09B04C51ED8060F008CA08B /* WeChatUITests.m */; };
+		A09B04D61ED80679008CA08B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A09B04D51ED80679008CA08B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A09B04C11ED8060F008CA08B /* WeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09B04C51ED8060F008CA08B /* WeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITests.m; sourceTree = "<group>"; };
 		A09B04C71ED8060F008CA08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09B04D41ED80679008CA08B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A09B04D51ED80679008CA08B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A09B049F1ED8060E008CA08B /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
+				A09B04D31ED8066C008CA08B /* Person */,
 				A09B04A31ED8060E008CA08B /* AppDelegate.h */,
 				A09B04A41ED8060E008CA08B /* AppDelegate.m */,
 				A09B04A61ED8060E008CA08B /* ViewController.h */,
@@ -138,6 +142,15 @@
 				A09B04C71ED8060F008CA08B /* Info.plist */,
 			);
 			path = WeChatUITests;
+			sourceTree = "<group>";
+		};
+		A09B04D31ED8066C008CA08B /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				A09B04D41ED80679008CA08B /* Person.h */,
+				A09B04D51ED80679008CA08B /* Person.m */,
+			);
+			path = Person;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				A09B04A81ED8060E008CA08B /* ViewController.m in Sources */,
 				A09B04A51ED8060E008CA08B /* AppDelegate.m in Sources */,
+				A09B04D61ED80679008CA08B /* Person.m in Sources */,
 				A09B04A21ED8060E008CA08B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
