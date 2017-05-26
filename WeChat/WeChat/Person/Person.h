@@ -10,4 +10,7 @@
 
 @interface Person : NSObject
 
+/** 用户名 */
+@property (nonatomic, copy) NSString *name;
+
 @end
